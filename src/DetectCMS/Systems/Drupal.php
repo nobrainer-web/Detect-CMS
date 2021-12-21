@@ -114,8 +114,6 @@ class Drupal extends \DetectCMS\DetectCMS {
 
 		if($this->home_html) {
 
-			require_once(dirname(__FILE__)."/../Thirdparty/simple_html_dom.php");
-
 			if($html = str_get_html($this->home_html)) {
 
 				if($meta = $html->find("meta[name='generator'], meta[name='Generator']",0)) {
@@ -163,8 +161,6 @@ class Drupal extends \DetectCMS\DetectCMS {
 	public function settings_json() {
 
 		if($this->home_html) {
-
-			require_once(dirname(__FILE__)."/../Thirdparty/simple_html_dom.php");
 
 			if($html = str_get_html($this->home_html)) {
 

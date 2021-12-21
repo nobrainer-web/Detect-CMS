@@ -79,8 +79,6 @@ class Joomla extends \DetectCMS\DetectCMS {
 
 		if($this->home_html) {
 
-			require_once(dirname(__FILE__)."/../Thirdparty/simple_html_dom.php");
-
 			if($html = str_get_html($this->home_html)) {
 
 				if($meta = $html->find("meta[name='generator']",0)) {

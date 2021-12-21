@@ -24,7 +24,6 @@ class Concrete5 extends \DetectCMS\DetectCMS
     public function meta()
     {
         if ($this->isValid()) {
-            require_once __DIR__ . '/../Thirdparty/simple_html_dom.php';
 
             $html = str_get_html($this->home_html);
 
