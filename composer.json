@@ -3,11 +3,6 @@
     "description": "PHP Library for detecting CMS.",
     "keywords": ["detect", "cms"],
     "type": "library",
-    "autoload": {
-        "psr-0": {
-            "DetectCMS": "src/"
-        }
-    },
     "require": {
         "simplehtmldom/simplehtmldom": "dev-master"
     }
