@@ -19,6 +19,7 @@ class DetectCMS
         'Fastcentrik',
         'Shopsys',
         'Shoptet',
+        'SilverStripe',
         'Webgarden',
         'Webnode',
         'Laravel',
