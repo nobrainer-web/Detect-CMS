@@ -2,8 +2,6 @@
 
 namespace DetectCMS;
 
-require_once __DIR__ . '/Thirdparty/simple_html_dom.php';
-
 class DetectCMS
 {
 
